@@ -24,7 +24,8 @@ You can install these dependencies using pip:
 ```shell
    pip install numpy argparse opencv-python scikit-image imutils
 ```
-Usage
+
+## Usage
 1. scan.py
 This script processes an image to detect the document and applies a perspective transform to get a top-down view.
 
@@ -42,7 +43,7 @@ Arguments
 Example: python transform_example.py --image path/to/your/image.jpg --coords "[[x1, y1], [x2, y2], [x3, y3], [x4, y4]]"
 
 
-Detailed Script Descriptions
+## Detailed Script Descriptions
 1. scan.py
 Argument Parsing: Uses argparse to handle command-line arguments.
 Image Loading and Resizing: Loads the image and resizes it for processing.
