@@ -1,14 +1,16 @@
 # Document Scanner Project
-Overview
+
+## Overview
 This project provides a set of Python scripts to transform images of documents into scanned, high-quality copies. The primary script, scan.py, processes an image to detect the document's edges, applies a perspective transformation, and converts the image to a clean black and white version. The helper script transform.py contains functions for performing the four-point perspective transform.
 
-Project Structure
+## Project Structure
 The project consists of three main files:
 
-scan.py: Main script to process and scan the document from an image.
-transform.py: Contains utility functions for performing perspective transformations.
-transform_example.py: Example script demonstrating the use of the four_point_transform function.
-Dependencies
+- scan.py: Main script to process and scan the document from an image.
+- transform.py: Contains utility functions for performing perspective transformations.
+- transform_example.py: Example script demonstrating the use of the four_point_transform function.
+
+## Dependencies
 To run this project, you need the following Python packages:
 
 numpy
@@ -18,9 +20,10 @@ scikit-image
 imutils
 
 You can install these dependencies using pip:
-pip install numpy argparse opencv-python scikit-image imutils
 
-
+```shell
+   pip install numpy argparse opencv-python scikit-image imutils
+```
 Usage
 1. scan.py
 This script processes an image to detect the document and applies a perspective transform to get a top-down view.
@@ -76,7 +79,7 @@ Steps
 4. Perspective Transformation: Applies the four_point_transform to the image using the provided coordinates.
 5. Display Results: Shows the original and warped images.
    
-Example Workflow
+## Example Workflow
 To scan a document using the scan.py script:
 
 1.Prepare the Image: Ensure your image is clear and contains a well-defined document.
