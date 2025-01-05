@@ -1,4 +1,4 @@
-# Document Scanner Project
+# Document Scanner 
 
 ## Overview
 This project provides a set of Python scripts to transform images of documents into scanned, high-quality copies. The primary script, scan.py, processes an image to detect the document's edges, applies a perspective transformation, and converts the image to a clean black and white version. The helper script transform.py contains functions for performing the four-point perspective transform.
